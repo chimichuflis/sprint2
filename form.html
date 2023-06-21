@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="form.css" />
+    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap");
+    </style>
+    <title>Form</title>
+  </head>
+  <body>
+    <main>
+      <div class="card-front">
+        <img src="./res/bg-card-front.png" alt="" />
+        <img class="card-logo" src="./res/card-logo.svg" />
+      </div>
+
+      <img class="card-back" src="./res/bg-card-back.png" alt="" />
+      <form>
+        <label>CARDHOLDER NAME</label>
+        <input type="text" placeholder="e.g. Jane Appleseed" />
+        <label for="">CARD NUMBER</label>
+        <input type="text" placeholder="e.g. 1234 5678 9123 0000" />
+        <label class="medium-flex" for="">EXP.DATE (MM/YY)</label>
+        <label class="medium-flex">CVC</label>
+        <input class="small-flex" type="number" placeholder="MM" />
+        <input class="small-flex" type="number" placeholder="YY" />
+        <input class="medium-flex" type="number" placeholder="e.g. 123" />
+        <button>Confirm</button>
+      </form>
+    </main>
+  </body>
+</html>
